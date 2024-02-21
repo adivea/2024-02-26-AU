@@ -15,7 +15,7 @@ startdate: 2024-02-26      # machine-readable start date for the workshop in YYY
 enddate: 2024-04-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Adela Sobotkova","Max Odsbjerg Pedersen"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Helle Strandgaard Jensen","Lise Søndergaard Jensen", "Jonas Hoff Moesgaard Jensen", "Sascha Bøgebjerg", "Andreas Emil Mikkelsen",  "Gustav Emil Ølgaard", "Magnus Lindholm Nielsen" ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["adela@fedarch.org", "maop@kb.dk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["adela@fedarch.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -29,6 +29,10 @@ Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
+{% endcomment %}
+
+
+{% comment %}
 {% endcomment %}
 
 
